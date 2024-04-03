@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Cor de fundo do header */
+    border-bottom: 1px solid #ddd; /* Linha divisória */
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+}
+
+header img {
+    max-width: 140px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1 {
+    color: #333;
+}
+
+ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6D6E72;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+.minhasentregas{
+    margin-top: 10px;
+    right: 25px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    margin-top: 20px;
+    max-width: 200px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #6D6E72;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: rgb(253, 33, 33);
+    color: #fff;
+    border: none;
+    border-radius: 12px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.custom-button:hover {
+    background-color: #a80101; /* Cor de fundo ao passar o mouse */
+}
+
+.entregaTitulo {
+    text-align: center;
+}
+
+.containerEntregador {
+    margin: 30px;
+}
+
+.containerDados{
+    position: absolute;
+    right: 2%;
+    top: 15%;
+    width: 45%;
+    height: 80%;
+    border-style: ridge;
+}
+
+h3 {
+    margin: 10px;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="page">
+        <div class="formLogin">
+            <img src="assets/img/e-full_logo.svg" alt="">
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="name">Nome</label>
+            <input type="name" placeholder="Digite seu Nome" autofocus="true" />
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite sua senha" />
+            <label for="password">Confirmar senha</label>
+            <input type="password" placeholder="Confirme sua senha" />
+            <button onclick="irLogin()" class="btn" style="padding: 10px;">Cadastrar</button>
+            <p>Todos direitos reservados à E-Full&copy; 2024.</p>
+        </div>
+        
+    </div>
+</body>
+<script> 
+    function irLogin() {
+        window.location.href = "login.html"
+    }
+</script>
+</html>

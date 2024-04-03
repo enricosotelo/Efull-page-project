@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard do Entregador</title>
+  <link rel="stylesheet" href="./assets/css/Entregador.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <img src="assets/img/e-full_logo.svg" class="navbar-brand" alt="">
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../e-full/map.html">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#minhas-entregas">Minhas Entregas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Central</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="minhasentregas">
+    <h2 class="entregaTitulo">Minhas Entregas</h2>
+    <section id="minhas-entregas" class="dashboard-section">
+
+      <div class="containerEntregador">
+        <h2>Em andamento</h2>
+        <table>
+
+          <td>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Livros</h5>
+                <p class="card-text">Carregamento de Livros <br>Data: 18/08/2024<br>Status: Em andamento<br>Para:
+                  Marília/SP </p>
+                <button type="button" class="btn btn-primary custom-button">Acompanhar</button>
+              </div>
+            </div>
+          </td>
+
+          <td>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Alimentos</h5>
+                <p class="card-text">Carregamento de Arroz <br>Data: 10/09/2024<br>Status: Em andamento<br>Para:
+                  Ourinhos/SP </p>
+                <button type="button" class="btn btn-primary custom-button">Acompanhar</button>
+              </div>
+            </div>
+          </td>
+      </div>
+
+      <div class="dashboard-section-content">
+        
+      </div>
+      </table>
+
+    </section>
+  </div>
+  <div class="containerEntregador">
+    <h2>Em espera</h2>
+    <table>
+
+      <td>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Eletrônicos</h5>
+                <p class="card-text">Carregamento de TVs <br>Data: 25/08/2024<br>Status: Em espera<br>Para:
+                    Bauru/SP </p>
+                <button onclick="irEntrega()" type="button" class="btn btn-primary custom-button">Iniciar Entrega</button>
+            </div>
+        </div>
+    </td>
+    
+    <td>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Roupas</h5>
+                <p class="card-text">Carregamento de Camisetas <br>Data: 03/09/2024<br>Status: Em espera<br>Para:
+                    Sorocaba/SP </p>
+                <button onclick="irEntrega()" type="button" class="btn btn-primary custom-button">Iniciar Entrega</button>
+            </div>
+        </div>
+    </td>
+    
+    <td>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Brinquedos</h5>
+                <p class="card-text">Carregamento de Bonecas <br>Data: 15/09/2024<br>Status: Em espera<br>Para:
+                    Jaú/SP </p>
+                <button onclick="irEntrega()" type="button" class="btn btn-primary custom-button">Iniciar Entrega</button>
+            </div>
+        </div>
+    </td>
+    
+    <td>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Móveis</h5>
+                <p class="card-text">Carregamento de Sofás <br>Data: 28/09/2024<br>Status: Em espera<br>Para:
+                    Campinas/SP </p>
+                <button onclick="irEntrega()" type="button" class="btn btn-primary custom-button">Iniciar Entrega</button>
+            </div>
+        </div>
+    </td>
+    
+    <td>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Cosméticos</h5>
+                <p class="card-text">Carregamento de Perfumes <br>Data: 05/10/2024<br>Status: Em espera<br>Para:
+                    Garça/SP </p>
+                <button onclick="irEntrega()" type="button" class="btn btn-primary custom-button">Iniciar Entrega</button>
+            </div>
+        </div>
+    </td>
+    
+    <td>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Tecnologia</h5>
+                <p class="card-text">Carregamento de Laptops <br>Data: 18/10/2024<br>Status: Em espera<br>Para:
+                    São Paulo/SP </p>
+                <button onclick="irEntrega()" type="button" class="btn btn-primary custom-button">Iniciar Entrega</button>
+            </div>
+        </div>
+    </td>
+    
+    <td>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Ferramentas</h5>
+                <p class="card-text">Carregamento de Furadeiras <br>Data: 25/10/2024<br>Status: Em espera<br>Para:
+                    Botucatu/SP </p>
+                <button onclick="irEntrega()" type="button" class="btn btn-primary custom-button">Iniciar Entrega</button>
+            </div>
+        </div>
+    </td>
+
+
+
+
+  <div class="dashboard-section-content">
+
+  </div>
+  </table>
+
+</section>
+</div>
+
+<div class="containerEntregador">
+  <h2>Concluidos</h2>
+  <table>
+
+    <td>
+      <div class="card">
+          <div class="card-body">
+              <h5 class="card-title">Acessórios</h5>
+              <p class="card-text">Carregamento de Bolsas <br>Data: 08/11/2024<br>Status: Concluido<br>Para:
+                  Araçatuba/SP </p>
+              <button type="button" class="btn btn-primary custom-button">Visualizar Entrega</button>
+          </div>
+      </div>
+  </td>
+  
+  <td>
+      <div class="card">
+          <div class="card-body">
+              <h5 class="card-title">Jogos</h5>
+              <p class="card-text">Carregamento de Videogames <br>Data: 15/11/2024<br>Status: Concluido<br>Para:
+                  Marília/SP </p>
+              <button type="button" class="btn btn-primary custom-button">Visualizar Entrega</button>
+          </div>
+      </div>
+  </td>
+  
+  <td>
+      <div class="card">
+          <div class="card-body">
+              <h5 class="card-title">Higiene</h5>
+              <p class="card-text">Carregamento de Shampoos <br>Data: 22/11/2024<br>Status: Concluido<br>Para:
+                  Osasco/SP </p>
+              <button type="button" class="btn btn-primary custom-button">Visualizar Entrega</button>
+          </div>
+      </div>
+  </td>
+
+
+
+
+<div class="dashboard-section-content">
+
+</div>
+</table>
+
+</section>
+</div>
+
+</body>
+
+<script> 
+  function irEntrega() {
+      window.location.href = "entrega.html"
+  }
+</script>
+</html>

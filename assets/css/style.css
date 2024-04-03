@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+}
+
+header img {
+    max-width: 140px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1 {
+    color: #333;
+}
+
+
+ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6D6E72;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    max-width: 100px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: #FF3131;
+    color: white;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #cc0f0f;
+}
+
+.slogan-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.slogan-box img {
+    max-width: 50%;
+    max-height: 88vh;
+    position: fixed;
+    top: 12vh;
+    right: 0;
+}
+
+.slogan {
+    width: 80%;
+    display: flex;
+    height: 88vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slogan h1 {
+    font-size: 70px;
+    font-weight: 900;
+    max-width: 700px;
+    color: #6D6E72;
+}
+
+.slogan h2 {
+    color: #6D6E72;
+    max-width: 700px;
+    margin: 30px 0px 30px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -15,13 +15,13 @@ Somos uma equipe formada na disciplina de Fábrica de Projetos Ágeis, parte da 
 # Uma breve explicação sobre as telas presentes no projeto:  
 
 
-![image](https://github.com/enricosotelo/Efull-page-project/assets/127902763/3c39b848-c190-45da-b31c-3fa1b903590a)  
+![image](https://github.com/enricosotelo/Efull-page-project/assets/127902763/e9101c0f-e678-4846-9b13-41b27dc2e407)  
 
 ###### Tela contando sobre nossa empresa, nossos valores e nossa missão.   
 
 ---  
   
-![image](https://github.com/enricosotelo/Efull-page-project/assets/127902763/ada808f7-5f31-4336-965a-87b02d635ecd)  
+![image](https://github.com/enricosotelo/Efull-page-project/assets/127902763/297562cd-2cbb-46f4-8079-0fee933f73a4)  
 
 
 ###### Tela sobre as politícas da empresa.  
@@ -44,7 +44,26 @@ Somos uma equipe formada na disciplina de Fábrica de Projetos Ágeis, parte da 
 
 ###### Tela de cadastro de usuário.  
 
----
+---  
+
+![image](https://github.com/enricosotelo/Efull-page-project/assets/127902763/4f9e4c0c-ad1f-4a9f-92f7-18ceaffbedd1)  
+
+###### Tela para o entregador sobre as entregas dele.  
+
+---  
+
+![image](https://github.com/enricosotelo/Efull-page-project/assets/127902763/82e1ed15-567e-4e5d-ba86-f7f8837223de)
+
+###### Tela onde mostra as entregas ao vivo.  
+
+---  
+
+![image](https://github.com/enricosotelo/Efull-page-project/assets/127902763/dfec37c3-78e8-4f53-84a9-ac47edfe1446)  
+
+###### Tela para iniciar entrega.  
+
+---  
+
 
 ### Integrantes:
 
